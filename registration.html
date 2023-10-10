@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <h1>Форма регистрации</h1>
+    <form action="#">
+        <p><label>Имя: <input type="text" autofocus required maxlength="15"></label></p>
+        <p><label>Фамилия: <input type="text" required maxlength="20"></label></p>
+        <p><label>Электронная почта: <input type="email" required></label></p>
+        <p><label>Пароль: <input type="password" required minlength="8"></label></p>
+        <p><label>Подтверждение пароля: <input type="password" required minlength="8"></label></p>
+        <p><label>Дата рождения: <input type="date" required></label></p>
+        <p>Пол:
+            <label>М <input name="gender" type="radio" checked></label>
+            <label>Ж <input name="gender" type="radio"></label>
+        </p>
+        <p><label>Подписка на новости <input type="checkbox" checked></label></p>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+
+</html>
