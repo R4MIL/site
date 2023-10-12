@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;     
+}
+
+h1 {
+    color:cornflowerblue;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+
+.input_bg_color {
+    background-color:antiquewhite;
+
+}
+
+a {
+    color:blue;
+}
