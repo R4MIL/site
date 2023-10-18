@@ -1,34 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Назад</a>
-    </nav>
-    <h1>Форма регистрации</h1>
+    <header>
+        <div class="logo">
+            <a href="https://img.freepik.com/premium-vector/finance-icon-vector-illustration-isolated-on-white-background-globe-symbol_570429-21744.jpg"
+                target="_blank">
+                <img src="img/picture.png" alt="картинка" height="200" width="200">
+            </a><br>
+        </div>
+        <nav class="navigate">
+            <a class="links" href="index.html">Главная</a>
+            <a class="links" href="registration.html">Регистрация</a>
+        </nav>
+        <h1 class="title">Форма регистрации</h1>
+    </header>
     <form action="#">
-        <p><label>Имя: <input type="text" placeholder="Имя" autofocus required maxlength="15"></label></p>
-        <p><label>Фамилия: <input type="text" placeholder="Фамилия" required maxlength="20"></label></p>
-        <p><label>Электронная почта: <input class="input_bg_color" type="email" placeholder="example@domain.ru"
-                    required></label></p>
-        <p><label>Пароль: <input class="input_bg_color" type="password" placeholder="Пароль" minlength="8"></label></p>
-        <p><label>Подтверждение пароля: <input class="input_bg_color" type="password" placeholder="Пароль ещё раз"
-                    required minlength="8"></label></p>
-        <p><label>Дата рождения: <input type="date" required></label></p>
-        <p>Пол:
+        <p class="text"><label>Имя: <input type="text" placeholder="Имя" autofocus required maxlength="15"></label></p>
+        <p class="text"><label>Фамилия: <input type="text" placeholder="Фамилия" required maxlength="20"></label></p>
+        <p class="text"><label>Электронная почта: <input class="input_bg_color" type="email"
+                    placeholder="example@domain.ru" required></label></p>
+        <p class="text"><label>Пароль: <input class="input_bg_color" type="password" placeholder="Пароль"
+                    minlength="8"></label></p>
+        <p class="text"><label>Подтверждение пароля: <input class="input_bg_color" type="password"
+                    placeholder="Пароль ещё раз" required minlength="8"></label></p>
+        <p class="text"><label>Дата рождения: <input type="date" required></label></p>
+        <p class="text">Пол:
             <label>М <input name="gender" type="radio" checked></label>
             <label>Ж <input name="gender" type="radio"></label>
         </p>
-        <p><label>Подписка на новости <input type="checkbox" checked></label></p>
-        <button type="submit">Отправить</button>
+        <p class="text"><label>Подписка на новости <input type="checkbox" checked></label></p>
+        <button class="button" type="submit">Отправить</button>
     </form>
+    <footer class="footer">
+        <p>все права защищены 2023</p>
+    </footer>
 </body>
 
 </html>

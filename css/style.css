@@ -1,21 +1,66 @@
-body {
-    font-family: sans-serif;     
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color:cornflowerblue;
+body {
+    font-family: 'Open Sans', sans-serif;   
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navigate {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: rgb(54, 147, 224);
+}
+
+.links {
+    color: #fff;
+}
+
+.logo {
     text-align: center;
 }
 
-p {
+.title {
+    color:darkorange;
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.unordered_list {
+    margin-bottom: 16px;
+}
+
+.text {
+    margin-bottom: 16px;
+}
+
+.text_italic {
     font-style: italic;
 }
 
-.input_bg_color {
-    background-color:antiquewhite;
-
+.quote {
+    margin-bottom: 16px;
 }
 
-a {
-    color:blue;
+.input_bg_color {
+    background-color:aliceblue;
+}
+
+.button {
+    margin-bottom: 16px;   
+}
+
+.footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: gainsboro;
 }
