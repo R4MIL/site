@@ -12,36 +12,40 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="logo">
             <a href="https://img.freepik.com/premium-vector/finance-icon-vector-illustration-isolated-on-white-background-globe-symbol_570429-21744.jpg"
                 target="_blank">
                 <img src="img/picture.png" alt="картинка" height="200" width="200">
             </a><br>
         </div>
-        <nav class="navigate">
-            <a class="links" href="index.html">Главная</a>
-            <a class="links" href="registration.html">Регистрация</a>
+        <nav class="menu">
+            <a class="menu__link" href="index.html">Главная</a>
+            <a class="menu__link" href="registration.html">Регистрация</a>
         </nav>
-        <h1 class="title">Форма регистрации</h1>
+        <h1 class="header__title">Форма регистрации</h1>
     </header>
-    <form action="#">
-        <p class="text"><label>Имя: <input type="text" placeholder="Имя" autofocus required maxlength="15"></label></p>
-        <p class="text"><label>Фамилия: <input type="text" placeholder="Фамилия" required maxlength="20"></label></p>
-        <p class="text"><label>Электронная почта: <input class="input_bg_color" type="email"
-                    placeholder="example@domain.ru" required></label></p>
-        <p class="text"><label>Пароль: <input class="input_bg_color" type="password" placeholder="Пароль"
-                    minlength="8"></label></p>
-        <p class="text"><label>Подтверждение пароля: <input class="input_bg_color" type="password"
-                    placeholder="Пароль ещё раз" required minlength="8"></label></p>
-        <p class="text"><label>Дата рождения: <input type="date" required></label></p>
-        <p class="text">Пол:
-            <label>М <input name="gender" type="radio" checked></label>
-            <label>Ж <input name="gender" type="radio"></label>
-        </p>
-        <p class="text"><label>Подписка на новости <input type="checkbox" checked></label></p>
-        <button class="button" type="submit">Отправить</button>
-    </form>
+    <div class="content">
+        <form action="#" class="registration-form">
+            <p class="content__text"><label>Имя: <input type="text" placeholder="Имя" autofocus required
+                        maxlength="15"></label></p>
+            <p class="content__text"><label>Фамилия: <input type="text" placeholder="Фамилия" required
+                        maxlength="20"></label></p>
+            <p class="content__text"><label>Электронная почта: <input class="registration-form__input_color"
+                        type="email" placeholder="example@domain.ru" required></label></p>
+            <p class="content__text"><label>Пароль: <input class="registration-form__input_color" type="password"
+                        placeholder="Пароль" minlength="8"></label></p>
+            <p class="content__text"><label>Подтверждение пароля: <input class="registration-form__input_color"
+                        type="password" placeholder="Пароль ещё раз" required minlength="8"></label></p>
+            <p class="content__text"><label>Дата рождения: <input type="date" required></label></p>
+            <p class="content__text">Пол:
+                <label>М <input name="gender" type="radio" checked></label>
+                <label>Ж <input name="gender" type="radio"></label>
+            </p>
+            <p class="content__text"><label>Подписка на новости <input type="checkbox" checked></label></p>
+            <button class="registration-form__button" type="submit">Отправить</button>
+        </form>
+    </div>
     <footer class="footer">
         <p>все права защищены 2023</p>
     </footer>

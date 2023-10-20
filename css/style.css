@@ -4,46 +4,67 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;   
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.navigate {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    background-color: rgb(54, 147, 224);
-}
-
-.links {
-    color: #fff;
+    font-family: 'Open Sans', sans-serif;  
 }
 
 .logo {
     text-align: center;
 }
 
-.title {
+.menu {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(54, 147, 224);   
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.header__title {
     color:darkorange;
     text-align: center;
     margin-bottom: 24px;
     font-weight: 700;
 }
 
-.subtitle {
+.content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content__title {
     margin-bottom: 20px;
     font-weight: 400;
 }
 
-.unordered_list {
+.ul-list {
     margin-bottom: 16px;
 }
 
-.text {
+.ul-list__li:hover {
+    cursor: pointer;
+ }
+
+.ul-list__li:hover::after {
+   content: ' <<'; 
+   cursor: pointer;
+}
+
+.content__text {
     margin-bottom: 16px;
 }
 
-.text_italic {
+.content__text_italic {
     font-style: italic;
 }
 
@@ -51,16 +72,29 @@ body {
     margin-bottom: 16px;
 }
 
-.input_bg_color {
+.registration-form__input_color {
     background-color:aliceblue;
 }
 
-.button {
-    margin-bottom: 16px;   
+.registration-form__button {
+    margin-bottom: 16px;  
+    width: 100px;
+    height: 30px; 
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    color:#000;
+}
+
+.registration-form__button:hover {
+    cursor: pointer;   
+    background-color: cornflowerblue;
+    color: #fff;
 }
 
 .footer {
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: gainsboro;
 }
