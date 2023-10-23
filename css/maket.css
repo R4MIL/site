@@ -49,6 +49,7 @@
   .choice__title {
     margin-bottom: 141px;
     font-family: "Lato", sans-serif;
+    width: 760px;
   }
 
   .step {
@@ -74,6 +75,7 @@
     font-weight: 700;
     line-height: 150%; /* 39px */
     margin-bottom: 17px;
+    width: 460px;
   }
   
   .step__text {
@@ -90,6 +92,7 @@
     font-weight: 700;
     line-height: 130%; /* 84.5px */
     margin-bottom: 102px;
+    width: 1112px;
   }
   
   .feel__text {
